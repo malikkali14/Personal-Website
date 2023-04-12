@@ -1,0 +1,42 @@
+*{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+body {
+    background-color: black;
+    background: black;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    padding: 0% 5%;
+    background:#000000;
+    position: fixed;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nav_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px 0
+}
+
+.nav_items li {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 25px;
+}
+
+.nav_items li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative
+}
