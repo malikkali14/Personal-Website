@@ -48,6 +48,9 @@ nav {
     color: white;
 }
 
+.introtext {
+    color: white;
+}
 
 .Me {
     border-radius: px;
@@ -55,6 +58,3 @@ nav {
     height: auto
 }
 
-.introtext {
-    color: white;
-}
