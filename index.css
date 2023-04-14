@@ -1,60 +1,79 @@
-*{
-    font-family: 'Barlow Condensed', sans-serif;
+@font-face {
+    font-family: myFirstFont;
+    src: url(text/OpenSauceOne-Light.ttf);
 }
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(text/OpenSauceOne-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(text/OpenSauceOne-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(text/OpenSauceOne-ExtraBoldItalic.ttf);
+}
+
 
 
 body {
-    background-color: black;
-    background: black;
+    background-color: #06002E;
+    color: white;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 3%;
+    
 }
 
-.header {
-    top: 0;
-    height: 25%;
-    width: 100%;
-    padding: 0% 5%;
-    background:#000000;
-    position: fixed;
-
+.navbar div {
+    font-family: mySecondFont;
+    font-size: 40px
 }
 
-nav {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.nav_items{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 60px 0
-}
-
-.nav_items li {
-    display: inline-block;
-    margin: 0 5px;
+.navbar ul {
+    font-family: myFirstFont;
     font-size: 25px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
-.nav_items li a{
+.navbar ul a {
     text-decoration: none;
     color: white;
-    padding: 5px 0;
-    position: relative
+    margin: 0%;
+    padding: 0 40px;
 }
 
-.landing {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    color: white;
+.welcome {
+    display: flex; 
+    flex-direction: row;
+    padding: 25px;
 }
 
-.introtext {
-    color: white;
+.welcometext h1{
+    font-family: myThirdFont;
+    font-size: 100px;
+    text-align: center;
 }
 
-.Me {
-    border-radius: px;
+.welcometext h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0 60px;
+}
+
+.welcomepic {
     max-width: 100%;
-    height: auto
+    max-height: 100%;
 }
-
