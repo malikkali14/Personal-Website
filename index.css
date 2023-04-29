@@ -1,5 +1,14 @@
+html {
+    background-image: url(Assets/background2.svg);
+    background-size: cover;
+
+}
+
 body {
     background-color: #FAFAFA;
+    max-height: 1024px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .nav {
@@ -9,9 +18,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 114px;
-    padding-right: 35px;
+    padding-right: 28px;
     align-items: center;
 
 }
@@ -36,7 +45,6 @@ body {
 .intro {
     display: flex;
     flex-direction: row;
-  
     justify-content: space-between;
 }
 
@@ -47,8 +55,6 @@ body {
     padding-left: 108px;
     padding-top: 50px;
     inline-size: 408px;
-
- 
 }
 
 .intro2 {
@@ -59,7 +65,76 @@ body {
 }
 
 .introimg {
-    padding-top: 10px;
+   
     padding-right: 28px;
   
 }
+
+.showcase {
+    background-color: #f4f4f4;
+
+}
+
+.txtshow {
+    inline-size: 408px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 114px;
+    padding-top: 40px;
+}
+
+.txtshow h1 {
+    font-size: 32px;
+    letter-spacing: 4px;
+    color: #6d6d6d;
+    font-weight: 500;
+}
+
+.txtshow h2 {
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 15px;
+    color: #636363
+}
+
+.carousel {
+    padding-top: 40px;
+}
+
+.carousel-content{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    background-image: url(Assets/Placeholdercard.svg);
+    background-size: cover;
+    border-radius: 12px;
+    color: white;
+}
+
+.cardtxt {
+    width: 342px;
+    height: 330px;
+    padding: 50px;
+}
+
+.cardtxt h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.cardtxt h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.cardtxt button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
