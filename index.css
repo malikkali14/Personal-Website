@@ -191,7 +191,7 @@ body {
 }
 
 .smalltext {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; 
     font-weight: 200;
     font-size: 1.125rem;
     text-align: center;
