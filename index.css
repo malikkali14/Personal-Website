@@ -1,14 +1,8 @@
-html {
-    background-image: url(Assets/background2.svg);
-    background-size: cover;
-
-}
 
 body {
-    background-color: #FAFAFA;
-    max-height: 1024px;
-    max-width: 1440px;
-    margin: auto;
+    background-color: #272727;
+    color: white;
+        margin: auto;
 }
 
 .nav {
@@ -45,7 +39,7 @@ body {
 .intro {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .intro1 {
@@ -54,7 +48,7 @@ body {
     font-size: 128px;
     padding-left: 108px;
     padding-top: 50px;
-    inline-size: 408px;
+  
 }
 
 .intro2 {
