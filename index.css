@@ -184,7 +184,7 @@ body {
 .bigtext {
     font-family: 'Sora', sans-serif;
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     max-width: 1400px;
     width: 100%;
@@ -234,25 +234,25 @@ body {
     padding-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1.5rem
 }
 
 .tiles {
     background-color: #323443;
-    border-radius: 12px;
+    border-radius: 14px;
     max-width: 550px;
     max-height: 285px;
     width: auto;
     height: auto;
-}
-.tiles {
     padding: 1.5rem;
 }
+
 .tiles h2{
     font-family: 'Sora', sans-serif;
     font-weight: 700;
     font-size: 1.75rem;
     color: white;
-    padding-bottom: 25px;
+    padding-bottom: 100px;
 }
 
 .tiles h3{
@@ -263,5 +263,32 @@ body {
 }
 
 .desctext {
-    background-color: red;
+
+}
+
+.desctext h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 2.75rem;
+    background: -webkit-linear-gradient(#fff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 1rem;
+}
+
+.desctext h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #dedede;
+    padding-bottom: 1.5rem;
+}
+
+.desctext h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #d4d4d4;
+    padding-bottom: 0.5rem;
+    letter-spacing: 1.4%;
 }
