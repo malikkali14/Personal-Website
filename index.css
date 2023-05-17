@@ -233,8 +233,15 @@ body {
 .content {
     padding-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 1.5rem
+    grid-template-columns: 1fr 0.25fr 1fr;
+    grid-row-gap: 1.5rem;
+    
+}
+
+.tiletext {
+    align-items: center;
+    margin: auto;
+    text-align: center;
 }
 
 .tiles {
@@ -247,12 +254,19 @@ body {
     padding: 1.5rem;
 }
 
+.tiles:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+
+}
+
 .tiles h2{
     font-family: 'Sora', sans-serif;
     font-weight: 700;
     font-size: 1.75rem;
     color: white;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
 }
 
 .tiles h3{
@@ -263,7 +277,7 @@ body {
 }
 
 .desctext {
-
+    margin: auto;
 }
 
 .desctext h1 {
@@ -291,4 +305,31 @@ body {
     color: #d4d4d4;
     padding-bottom: 0.5rem;
     letter-spacing: 1.4%;
+}
+
+.arrow{
+    align-items: center;
+    width: 100%;
+    max-width: 1760px;
+    height: auto;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.arrow a {
+    text-decoration: none;
+}
+.arrow p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+.arrow:hover {
+    text-decoration: underline;
+    color:#3BF686;
+
 }
