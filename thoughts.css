@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #272727;
+}
+
 /* Navbar */
 
 .navbar {
@@ -176,26 +180,26 @@
     
 }
 
-
 /* Landing */
-body {
-    background-color: #272727;
-}
+
 .main_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding-top: 100px;
     margin: 0 auto;
     width: auto;
     height: auto;
     max-width: 1760px;
     justify-self: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #main_img {
-    max-width: 351px;
-    max-height: 356px;
+    max-width: 453px;
+    max-height: 439px;
     width: auto;
     height: auto;
 }
@@ -203,33 +207,25 @@ body {
 .bigtext {
     font-family: 'Sora', sans-serif;
     font-weight: 700;
-    font-size: 3rem;
-    text-align: center;
-    max-width: 1400px;
+    font-size: 4rem;
+    max-width: 625px;
     width: 100%;
-    padding-top: 2.9375rem;
-    padding-bottom: 2.9375rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
     background: -webkit-linear-gradient(-70deg,#3BF686 30%, #4CA9FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: auto;
 }
 
 .smalltext h2{
-    font-family: 'Inter', sans-serif; 
-    font-weight: 400;
-    font-size: 1.5rem;
-    text-align: center;
-    align-items: center;
-    max-width: 500px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    max-width: 955px;
     width: 100%;
     color: #D6D6D6;
-    margin: auto;
+    padding-top: 20px;
 }
 
-/* Thoughts */
+/* Projects */
 
 .showcase {
     width: auto; 
@@ -333,41 +329,6 @@ body {
     letter-spacing: 1.4%;
 }
 
-.arrow{
-    align-items: center;
-    width: 100%;
-    max-width: 1760px;
-    height: auto;
-    text-align: right;
-    padding-top: 20px;
-}
-
-.arrow a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
-    display: inline-block;
-    padding-right: 30px;
-}
-
-.arrow a::after {
-    content: '';
-    width: 0px;
-    height: 2px;
-    display: block;
-    background: #3BF686;
-    transition: 300ms;
-}
-
-
-.arrow a:hover::after {
-    width: 100%;
-}
-
-
-
 .footer {
     background: #272727;
     height: 80px;
@@ -383,6 +344,3 @@ body {
     font-family: 'Inter', sans-serif; 
     font-weight: 200;
 }
-
-
-
