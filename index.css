@@ -201,7 +201,7 @@ body {
     height: auto;
 }
 
-.bigtext {
+.bigtext h1{
     font-family: 'Sora', sans-serif;
     font-weight: 700;
     font-size: 3rem;
