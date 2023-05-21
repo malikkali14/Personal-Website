@@ -217,6 +217,20 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.bigtext h1{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    text-align: center;
+    max-width: 1400px;
+    width: 100%;
+    background: -webkit-linear-gradient(-70deg,#3BF686 30%, #4CA9FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: auto;
+}
+
 .smalltext h2{
     font-family: 'Sora', sans-serif;
     font-weight: 700;
