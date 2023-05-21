@@ -389,14 +389,11 @@ body {
     margin: auto;
 }
 
-.desctext h1 {
+.desc {
     font-family: 'Sora', sans-serif;
     font-weight: 700;
     font-size: 2.75rem;
-    background: -webkit-linear-gradient(#fff, #fff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     padding-bottom: 1rem;
 }
 
