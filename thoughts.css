@@ -221,8 +221,7 @@ body {
     font-family: 'Sora', sans-serif;
     font-weight: 700;
     font-size: 6rem;
-    text-align: center;
-    max-width: 1400px;
+    max-width: 625px;
     width: 100%;
     background: -webkit-linear-gradient(-70deg,#3BF686 30%, #4CA9FF);
     -webkit-background-clip: text;
@@ -451,10 +450,10 @@ body {
         margin: auto;
     }
 
-    .bigtext {
+    .bigtext h1{
         text-align: center;
         margin: auto;
-        font-size: 3rem;
+        font-size: 7rem;
     }
 
     .smalltext h2{
@@ -471,10 +470,10 @@ body {
         grid-row-gap: 1.5rem;
     }
 
-    .bigtext {
+    .bigtext h1{
         text-align: center;
         margin: auto;
-        font-size: 2.7rem;
+        font-size: 6rem;
     }
 
     .smalltext h2{
@@ -509,10 +508,10 @@ body {
     margin: auto;
     }
 
-    .bigtext {
+    .bigtext h1{
     text-align: center;
     margin: auto;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     }
 
     .smalltext h2 {
