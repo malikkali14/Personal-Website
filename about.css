@@ -200,6 +200,7 @@ body {
     width: 100%;
     background: -webkit-linear-gradient(-70deg,#3BF686 30%, #4CA9FF);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: auto;
 }
@@ -255,6 +256,7 @@ body {
         width: auto;
         background: -webkit-linear-gradient(-70deg,#3BF686 30%, #4CA9FF);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         margin: auto;
         text-align: center;
@@ -284,6 +286,7 @@ body {
         width: auto;
         background: -webkit-linear-gradient(-70deg,#3BF686 30%, #4CA9FF);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         margin: auto;
         text-align: center;
@@ -313,6 +316,7 @@ body {
         width: auto;
         background: -webkit-linear-gradient(-70deg,#3BF686 30%, #4CA9FF);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         margin: auto;
         text-align: center;
