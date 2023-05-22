@@ -390,6 +390,24 @@ body {
     
 }
 
+.desctext a{
+    text-decoration: none;
+}
+
+.desctext a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #3BF686;
+    transition: 300ms;
+}
+
+
+.desctext a:hover::after {
+    width: 100%;
+}
+
 .desc {
     font-family: 'Sora', sans-serif;
     font-weight: 700;
