@@ -225,7 +225,33 @@ body {
     font-weight: 300;
     color: #d6d6d6;
     margin: auto;
-    max-width: 1590px;
+    max-width: 1760px;
     padding: 30px 50px;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
+    text-align: justify;
+    text-justify: inter-word;
  }
+
+ .txthighlight {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #d6d6d6;
+ }
+
+ 
+ .footer {
+    background: #272727;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    bottom: 0;
+    z-index: 999;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 200;
+}
