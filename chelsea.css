@@ -227,7 +227,6 @@ body {
     max-width: 1760px;
     padding: 30px 50px;
     font-size: 1.65rem;
-
     text-justify: inter-word;
  }
 
@@ -240,9 +239,6 @@ body {
 
  .bodyimg {
     text-align: center;
-    justify-content: center;
-    margin:auto;
-    
  }
 
 
