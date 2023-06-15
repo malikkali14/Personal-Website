@@ -249,6 +249,9 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
     font-size: 1rem;
+    max-width: 728px;
+    text-align: center;
+    margin: auto;
  }
 
 
@@ -314,6 +317,7 @@ body {
         font-family: 'Inter', sans-serif;
         font-weight: 200;
         font-size: 1rem;
+        max-width: 628px;
      }
 }
 
@@ -377,22 +381,11 @@ body {
         font-family: 'Inter', sans-serif;
         font-weight: 200;
         font-size: 1rem;
+        max-width: 528px;
      }
 }
 
 @media screen and (max-width: 630px) {
-    .bodyimg img{
-        max-width: 528px;
-     }
-    
-     .imgtext {
-        font-family: 'Inter', sans-serif;
-        font-weight: 200;
-        font-size: 1rem;
-     }
-}
-
-@media screen and (max-width: 530px) {
     .bodyimg img{
         max-width: 428px;
      }
@@ -401,6 +394,20 @@ body {
         font-family: 'Inter', sans-serif;
         font-weight: 200;
         font-size: 1rem;
+        max-width: 428px;
+     }
+}
+
+@media screen and (max-width: 530px) {
+    .bodyimg img{
+        max-width: 328px;
+     }
+    
+     .imgtext {
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        max-width: 328px;
      }
 }
 
